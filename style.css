@@ -1,0 +1,118 @@
+.headerbar {
+    column-count: 2;
+    background-color: teal;
+    overflow: scroll;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+}
+.namecontainer {
+    left:0px;
+    width: auto;
+}
+.logocontainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    right:0px;
+    width: auto;
+    height: 100%;
+}
+.logocontainer a{
+    vertical-align: center;
+    height: 100%;
+}
+.logocontainer a img{
+    vertical-align: center;
+    width: 100%;
+    margin: 7px;
+    float: right;
+    height: 90%;
+}
+.selfcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.selfportrait {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.container {
+    margin-top: 75px;
+    width: 100%;
+    height: 100%;
+}
+.column {
+    display: inline-block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border: 2px solid white;
+    border-radius: 20%;
+}
+.column p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    white-space: pre-line;
+}
+.row {
+    column-count: 2;
+    text-align: center;
+    height: auto;
+}
+.projectimage {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.linkbutton {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.spacer {
+    height: 25px;
+    width: 100%;
+}
+body {
+    background-color: slategrey;
+}
+.logoimage {
+    margin: 7px;
+    float: right;
+    display: block;
+    height: 90%;
+    filter: grayscale(1)
+    contrast(100)
+}
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: auto;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
